@@ -470,7 +470,7 @@ Vysočinu, severní a východní
           color: #2A2B59;
         }
 
-        .contact-phone, .contact-email, .info a {
+        .contact-phone a, .contact-email a, .info a {
           color: #6E6EC6;
           text-decoration: none;
 
@@ -594,7 +594,7 @@ Vysočinu, severní a východní
       </style>
       <script>
         let screen_width = document.documentElement.clientWidth;
-        
+
         document.querySelectorAll('.card .close').forEach((item) => {
           item.addEventListener('click', (e) => {
             e.currentTarget.parentNode.classList.remove('open');
